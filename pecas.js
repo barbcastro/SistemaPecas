@@ -37,17 +37,3 @@ else
 
 // = atribução de valor;
 // == Verificar se os valores são iguais;
-//=== verificar se o valores são identicos (tem que ser do mesmo tipo);
-
-switch (nomePeca.length){
-    case 0:
-        console.log("o nome da peça não pode ser vazio.")
-        break;
-    case 1:
-    case 2:
-        console.log("Onome da peça deve ter mais de 3 caracteres.")
-        break;
-    default:
-        console.log("Nome da peça adequado para cadastro.")
-        break
-}
